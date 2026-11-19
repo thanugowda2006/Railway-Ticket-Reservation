@@ -37,7 +37,7 @@ pipeline {
                     findstr /i "addEventListener" script.js
                     if errorlevel 1 exit /b 1
 
-                    echo All basic validation tests passed
+                    echo All basic validation tests passed order
                 '''
             }
         }
